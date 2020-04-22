@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 import axios from 'axios';
 
 function Home() {
@@ -20,7 +21,9 @@ function Home() {
     return(
         <div>
             <h1>Schemes Home Page</h1>
-            <button>Add Scheme</button>
+            <Link to='/addScheme'>
+                <button>Add Scheme</button>
+            </Link>            
             {schemes.map(scheme => (
                 <div key={scheme.id}>
                     <p>{scheme.scheme_name}</p>
