@@ -12,7 +12,7 @@
     "chokidar": "^3.5.2",
     "eslint": "^7.28.0",
     "fast-glob": "^3.2.5",
-    "glob-parent": "^6.0.0",
+    "glob-parent": "^6.0.2",
     "immer": "^9.0.6",
     "is-svg": "^4.3.1",
     "json-schema": "^0.4.0",
